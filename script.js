@@ -1,5 +1,4 @@
 let users = JSON.parse(localStorage.getItem('users')) || [];
-
 const firstNameInput = document.getElementById('firstName');
 const lastNameInput = document.getElementById('lastName');
 const workInput = document.getElementById('work');
